@@ -46,7 +46,7 @@ var list = [String]()
 for x in 0...randomWords.count-1 {
     list.append(randomWords[x])
 }
-
-print(list)
-
-print(mergeSort(list: list))
+let sortedArray = mergeSort(list: list)
+for x in 0...randomWords.count-1 {
+    print(sortedArray[x])
+}
