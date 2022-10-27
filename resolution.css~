@@ -1,0 +1,20 @@
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+table{
+    width: 100%;
+    background-color: #E6E6FA;
+    margin-left: 0px;
+    margin-right: 0px;
+}
